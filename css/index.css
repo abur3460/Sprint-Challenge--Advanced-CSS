@@ -1,3 +1,10 @@
+#width {
+  width: 800px;
+  margin: auto;
+}
+#flex {
+  display: flex;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -168,12 +175,13 @@ p {
   flex-direction: column;
 }
 .navcontainer h1 {
-  font-size: 45px;
+  font-size: 50px;
+  padding-bottom: 15px;
 }
 .navigation {
   display: flex;
   justify-content: center;
-  padding-left: 25 px;
+  padding-left: 25px;
 }
 .navigation a {
   display: flex;
@@ -182,6 +190,7 @@ p {
   padding-left: 30px;
   padding-right: 30px;
   color: black;
+  padding-bottom: 25px;
 }
 footer {
   color: #22283B;
@@ -243,4 +252,34 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+.btn {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #000066;
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+.btn:hover {
+  background: lightgrey;
+  letter-spacing: 1px;
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+}
+.navigation a {
+  color: black;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+.navigation a:hover {
+  color: lightgrey;
+  letter-spacing: 1px;
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
 }
